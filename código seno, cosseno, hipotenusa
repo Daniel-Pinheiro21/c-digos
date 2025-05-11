@@ -1,0 +1,29 @@
+#include <stdio.h>
+#include <stdlib.h>
+
+float resultado_seno, consseno_angulo, hipotenusa_angulo, resultado_hipotenusa, hipo_angulo;
+float seno_angulo (float cateto_oposto, float hipotenusa);
+float hipo_angulo(float cateto_oposto, float cateto_adjascente);
+int main ()
+(
+    resultado seno = seno_angulo (3,5);
+    printf ("O resultado do calculo do seno e: %4f", resultado_seno);
+
+    resultado_hipotenusa = hipo_angulo (10,4);
+    printf ("O resultado do calculo da hipotenusa e: \n %.4f", resultado_hipotenusa);
+
+    return 0;
+)
+float seno_angulo (float cateto_oposto, float hipotenusa) {
+    float sin_angulo;
+    sin_angulo = cateto_oposto/hipotenusa;
+    return sin_angulo;
+}
+float cos_angulo (float cateto_adjascente, float hipotenusa) {
+    float cosseno_angulo = cateto_adjascente/hipotenusa;
+    return cosseno_angulo;
+}
+float hipo_angulo (float cateto_adjascente, float cateto_oposto){
+    float hipo_angulo = cateto_oposto/cateto_adjascente;
+    return hipotenusa_angulo;
+}
