@@ -1,0 +1,55 @@
+#incluir <stdio.h>
+#incluir <math.h>
+#incluir <stdbool.h>
+#define velocidade_da_luz 299792458
+const float pi = 3,14159265358979323846;
+int a, c, d;
+flutuador b, e;
+bool compara, compara_tamanho;
+flutuador f, g;
+int principal()
+{
+
+    a = 2;
+    b = 0,2;
+    c = 7;
+    d = c%a;
+    e = pow(2,7);
+    f = cos(a);
+    g = pow(b,sin((float) c))+sqrt(e);
+    compara = a == b;
+    compara_tamanho = a >= b;
+    printf("A expressão doidana d�: %4.4f \n",g);
+    printf("A � igual ab? %d \n", compara);
+    printf("A � igual ab? %s \n", compara ? "true" : "false" );
+    printf("A � maior ou igual ab? %d \n", compara_tamanho);
+    printf("O valor de %d: \n \n", d);
+    printf("O valor de ee %f: \n", e);
+
+    int h, i, j, k;
+    bool compara_tudo, compara_tudo2;
+    h = 2;
+    eu = 3;
+    j = 2;
+    k = 6;
+    compara_tudo = h ==j && i != k;
+    compara_tudo2 = h ==j || i != k;
+    printf("A comparação �: %s ", compara_tudo ? "true":"false");
+    printf("Eu sou \"bonito\" \a \n");
+    printf("o valor de h = %d \n", h);
+    h -- ;
+    printf("o valor de h = %d \n", h);
+    h -= 2 ;
+    printf("o valor de h = %d \n", h);
+    flutuar l;
+    l = exp(0);
+    printf("o valor de l = %f \n", l);
+    flutuar m, n;
+    m = teto(g);
+    n = andar(g);
+    flutuar p;
+    p = velocidade_da_luz/12346546541302;
+    printf("o valor de g arredondado para cima = %4.1f \n", m);
+    printf("o valor de g arredondado para baixo = %4.1f \n", n);
+    retornar 0;
+}
