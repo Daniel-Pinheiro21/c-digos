@@ -12,13 +12,13 @@ int main() {
     // C�lculo do delta
     delta = (b * b) - (4 * a * c);
 
-    // Verifica��o se delta � n�o-negativo
+    // Verificaçao se delta e n�o-negativo
     if (delta >= 0) {
         x1 = (-b + sqrt(delta)) / (2 * a);
         x2 = (-b - sqrt(delta)) / (2 * a);
-        printf("As ra�zes s�o: x1 = %.2f e x2 = %.2f\n", x1, x2);
+        printf("As raizes sao: x1 = %.2f e x2 = %.2f\n", x1, x2);
     } else {
-        printf("N�o existe raiz real.\n");
+        printf("Nao existe raiz real.\n");
     }
 
     return 0;
