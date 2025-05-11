@@ -12,7 +12,7 @@ int main() {
     // C�lculo do delta
     delta = (b * b) - (4 * a * c);
 
-    // Verificaçao se delta e n�o-negativo
+    // Verificaçao se delta e nao-negativo
     if (delta >= 0) {
         x1 = (-b + sqrt(delta)) / (2 * a);
         x2 = (-b - sqrt(delta)) / (2 * a);
